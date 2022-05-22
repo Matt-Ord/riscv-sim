@@ -1,0 +1,4 @@
+{
+  "cSpell.enableFiletypes": ["rust"],
+  "cSpell.ignoreWords": ["RISCV","JALR","funct"]
+}
