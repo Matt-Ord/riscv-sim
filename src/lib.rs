@@ -18,8 +18,8 @@ mod tests {
             let result = a.immediate(&encoding);
             assert_eq!(
                 imm, result,
-                "Incorrect encoding of {:?} (provided: {:#034b}, decoded: {:#034b})",
-                encoding, imm, result
+                "Incorrect encoding (provided: {:#034b}, decoded: {:#034b})",
+                imm, result
             )
         }
     }
